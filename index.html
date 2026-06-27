@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>きりしまキッズフリマ｜2026.8.3 第1回</title>
+<link rel="icon" type="image/png" href="images/site-logo.png">
+<link rel="apple-touch-icon" href="images/site-logo.png">
+<meta name="description" content="夏休み、子どもたちが店主になる体験型フリーマーケット。2026年8月3日（月）10:00〜12:00、桷志田体育館にて開催。小学3〜6年生対象。">
+<meta name="theme-color" content="#4bbcde">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="きりしまキッズフリマ">
+<meta property="og:title" content="きりしまキッズフリマ｜2026.8.3 第1回">
+<meta property="og:description" content="夏休み、子どもたちが店主になる体験型フリーマーケット。2026年8月3日（月）10:00〜12:00、桷志田体育館にて開催。">
+<meta property="og:image" content="images/hero-banner.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="images/hero-banner.jpg" fetchpriority="high">
+<style>
+:root{
+  --ocean:#4bbcde;
+  --ocean-deep:#1d7a9e;
+  --coral:#ff8c7a;
+  --coral-light:#ffcfc9;
+  --foam:#dcf4fc;
+  --sky:#7fd4ea;
+  --sky-mid:#a8e3f2;
+  --sand:#fffce0;
+  --sunshine:#ffe880;
+  --paper:#ffffff;
+  --cream:#f4fbff;
+  --ink:#1a5068;
+  --muted:#5a9ab4;
+  --line:rgba(75,188,222,.18);
+  --shadow:0 18px 44px rgba(75,188,222,.14);
+  --font:"Hiragino Maru Gothic ProN","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic",YuGothic,Meiryo,"Noto Sans JP",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--font);
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.9;
+  overflow-x:hidden;
+  letter-spacing:.01em;
+}
+a{color:inherit}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.skip-link{position:absolute;left:16px;top:12px;z-index:100;transform:translateY(-140%);padding:10px 16px;border-radius:999px;background:#fff;color:var(--ocean-deep);font-weight:950;text-decoration:none;box-shadow:var(--shadow);transition:transform .18s ease}.skip-link:focus{transform:translateY(0)}
+.site-bg{
+  position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(circle at 8% 8%,rgba(69,185,222,.22) 0 200px,transparent 191px),
+    radial-gradient(circle at 88% 7%,rgba(255,232,128,.34) 0 210px,transparent 201px),
+    radial-gradient(circle at 90% 80%,rgba(198,236,248,.30) 0 230px,transparent 221px),
+    radial-gradient(circle at 48% 50%,rgba(24,136,176,.04) 0 380px,transparent 381px),
+    linear-gradient(180deg,rgba(24,136,176,.025) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(24,136,176,.025) 1px,transparent 1px),
+    var(--cream);
+  background-size:auto,auto,auto,auto,60px 60px,60px 60px,auto;
+}
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:rgba(237,248,253,.90);
+  backdrop-filter:blur(16px);
+  border-bottom:2px solid rgba(75,188,222,.14);
+}
+.topbar-inner{max-width:1160px;margin:auto;padding:13px 22px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;color:var(--ocean-deep);letter-spacing:.02em}
+.brand-mark{display:grid;place-items:center;width:46px;height:46px;border-radius:18px;background:#f0faff;border:1px solid var(--line);box-shadow:0 10px 20px rgba(24,136,176,.13);overflow:hidden}
+.brand-logo-img{width:100%;height:100%;object-fit:cover;display:block}
+.site-icon{width:1.35em;height:1.35em;display:block;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.brand-mark .site-icon{width:23px;height:23px}
+.nav{display:flex;align-items:center;gap:18px;font-size:.88rem;font-weight:800;color:var(--ocean)}
+.nav a{text-decoration:none}.nav-cta{padding:8px 17px;border-radius:999px;background:var(--coral);color:#fff;box-shadow:0 12px 22px rgba(255,140,122,.30)}
+.hero{
+  position:relative;isolation:isolate;overflow:hidden;
+  line-height:0;
+}
+.hero:before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(circle at 16% 22%,rgba(69,185,222,.38) 0 180px,transparent 171px),
+    radial-gradient(circle at 83% 18%,rgba(255,232,128,.50) 0 170px,transparent 161px),
+    radial-gradient(circle at 50% 90%,rgba(198,236,248,.40) 0 300px,transparent 291px),
+    repeating-conic-gradient(from 0deg at 83% 18%,rgba(255,232,128,.04) 0deg 14deg,transparent 14deg 28deg);
+  z-index:-2;
+}
+.hero:after{
+  content:"";position:absolute;left:-5%;right:-5%;bottom:-1px;height:90px;
+  background:var(--cream);
+  clip-path:ellipse(56% 74% at 50% 100%);
+  z-index:-1;
+}
+.hero-inner{max-width:920px;width:100%;margin:0 auto;display:grid;grid-template-columns:1fr;gap:32px;align-items:center;justify-items:center}.hero-copy{text-align:center}
+.kicker{
+  display:inline-flex;align-items:center;gap:9px;padding:9px 17px;border-radius:999px;
+  background:rgba(255,255,255,.92);border:1px solid rgba(75,188,222,.22);
+  box-shadow:0 12px 26px rgba(24,136,176,.14);
+  font-weight:900;color:var(--ocean);letter-spacing:.07em;
+}
+.kicker:before{content:"●";color:var(--coral);font-size:.75em}
+.hero h1{margin-top:28px;font-size:clamp(3.8rem,10vw,9.6rem);line-height:.96;font-weight:950;letter-spacing:0;color:var(--ocean-deep)}
+.hero h1 .small{display:block;font-size:.35em;letter-spacing:.08em;color:var(--ocean);text-shadow:none;margin-bottom:.12em}
+.hero-title-main{
+  display:block;
+  font-family:"Hiragino Maru Gothic ProN","Arial Rounded MT Bold","Hiragino Sans","Yu Gothic",YuGothic,Meiryo,sans-serif;
+  font-weight:900;letter-spacing:.02em;color:#c41c1c;
+  -webkit-text-stroke:3px #c41c1c;
+  paint-order:fill stroke;
+  text-shadow:
+    2px 0 0 #c41c1c,
+    -2px 0 0 #c41c1c,
+    0 2px 0 #c41c1c,
+    0 -2px 0 #c41c1c,
+    3px 3px 0 rgba(180,10,10,.15),
+    0 10px 0 rgba(255,230,60,.80),
+    0 20px 40px rgba(196,28,28,.16);
+  word-break:keep-all;line-break:strict;
+}
+.lead{max-width:860px;margin:28px auto 0;font-size:clamp(1rem,2vw,1.16rem);font-weight:700;color:#2a6580;line-height:1.9;text-wrap:pretty}.nowrap{white-space:nowrap}.sp-br,.sp-inline{display:none}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:50px;padding:13px 24px;border-radius:999px;text-decoration:none;font-weight:900;border:1px solid var(--line);transition:transform .18s ease,box-shadow .18s ease}
+.btn-primary{background:var(--coral);color:#fff;box-shadow:0 14px 26px rgba(255,140,122,.30)}.btn-secondary{background:#fff;color:var(--ocean);box-shadow:0 14px 26px rgba(24,136,176,.14)}.btn:hover{transform:translateY(-3px)}
+a:focus-visible,.btn:focus-visible{outline:3px solid var(--sunshine);outline-offset:4px}
+.hero-panel{position:relative;background:rgba(255,255,255,.90);border:1px solid rgba(24,136,176,.15);border-radius:36px;padding:28px;box-shadow:var(--shadow);transform:rotate(.6deg)}
+.hero-panel:before{display:none}
+.info-list{display:grid;gap:14px}.info-item{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:center;padding:18px;border-radius:24px;background:#e5f6fd;border:1px solid rgba(75,188,222,.12)}.info-item:nth-child(2){background:#fffae8}.info-item:nth-child(3){background:#e2f8ee}.info-icon{display:grid;place-items:center;width:64px;height:64px;border-radius:22px;background:#fff;font-size:1.7rem;box-shadow:inset 0 0 0 1px rgba(24,136,176,.10)}.info-label{display:block;font-size:.78rem;font-weight:900;letter-spacing:.12em;color:var(--ocean)}.info-value{display:block;font-size:clamp(1.22rem,3vw,1.9rem);font-weight:950;line-height:1.33;color:var(--ocean-deep)}
+.wave-strip{background:var(--ocean-deep);color:#fff;overflow:hidden;position:relative}
+.wave-strip::before{content:"";position:absolute;top:0;left:0;right:0;height:6px;background:repeating-linear-gradient(90deg,var(--sunshine) 0 28px,var(--coral) 28px 56px,rgba(166,228,248,.9) 56px 84px);opacity:.85}
+.wave-track{display:flex;width:max-content;animation:marquee 28s linear infinite;padding-top:6px}
+.wave-track span{display:inline-flex;align-items:center;gap:18px;padding:12px 22px;font-weight:900;letter-spacing:.07em;white-space:nowrap}
+.wave-track span:after{content:"";display:inline-block;width:6px;height:6px;border-radius:999px;background:rgba(255,255,255,.55);margin-left:18px}
+@keyframes marquee{to{transform:translateX(-50%)}}
+section{position:relative;max-width:1180px;margin:auto;padding:86px 22px}.section-head{text-align:center;margin-bottom:42px}.en{display:inline-block;color:var(--ocean);font-size:.78rem;font-weight:950;letter-spacing:.18em}.section-title{margin-top:8px;font-size:clamp(2rem,5vw,3.65rem);line-height:1.08;font-weight:950;color:var(--ocean-deep);letter-spacing:-.035em}.section-title span{background:linear-gradient(transparent 62%,rgba(255,213,63,.78) 62%)}.section-sub{margin:16px auto 0;max-width:680px;color:var(--muted);font-weight:700}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.card{position:relative;background:rgba(255,255,255,.92);border:1px solid rgba(24,136,176,.12);border-radius:34px;padding:30px;box-shadow:var(--shadow);overflow:hidden}.card:after{content:"";position:absolute;width:130px;height:130px;border-radius:50%;right:-44px;top:-44px;background:rgba(69,185,222,.16);opacity:.95}.card:nth-child(2):after{background:rgba(255,232,128,.28)}.card:nth-child(3):after{background:rgba(100,220,160,.22)}.card-icon{position:relative;z-index:1;display:grid;place-items:center;width:72px;height:72px;border-radius:26px;background:#e5f6fd;color:var(--ocean);margin-bottom:18px;box-shadow:inset 0 0 0 1px rgba(24,136,176,.10)}.card-icon .site-icon{width:34px;height:34px}.card h3{font-size:1.22rem;font-weight:950;color:var(--ocean-deep)}.card p{margin-top:7px;font-weight:700;color:var(--muted)}.big{font-size:1.48rem;color:var(--ocean-deep);font-weight:950}.big small{display:block;margin-top:4px;font-size:.72em;line-height:1.5;color:var(--muted);font-weight:900}
+.map-block{margin-top:34px;background:rgba(255,255,255,.90);border:1px solid rgba(24,136,176,.12);border-radius:34px;padding:18px;box-shadow:var(--shadow)}.map-head{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:8px 8px 18px}.map-head p{display:inline-flex;align-items:center;gap:10px;font-weight:950;color:var(--ocean-deep)}.map-head .site-icon{width:24px;height:24px;color:var(--ocean)}.map-frame{overflow:hidden;border-radius:26px;border:1px solid rgba(24,136,176,.12);line-height:0}.map-frame iframe{width:100%;height:390px;border:0}
+.purpose-wrap{display:block;max-width:1180px;margin:0 auto}.purpose-copy{max-width:780px;margin:0 auto 30px;text-align:center;background:linear-gradient(155deg,#ddf3fc,#cceef8,#e6f8ff);color:var(--ocean-deep);border:1px solid rgba(24,136,176,.14);border-radius:38px;padding:38px;box-shadow:var(--shadow)}.purpose-copy h2{font-size:clamp(2rem,4.8vw,3.6rem);line-height:1.08;font-weight:950;letter-spacing:0}.purpose-copy p{margin-top:18px;font-weight:800;color:#2a6580}.purpose-figure{background:rgba(255,255,255,.90);border:1px solid rgba(24,136,176,.12);border-radius:38px;padding:12px;box-shadow:var(--shadow)}.purpose-figure img{display:block;width:100%;height:auto;border-radius:28px}
+.flow-figure{width:min(100%,1180px);margin:0 auto;padding:clamp(8px,1.6vw,14px);background:rgba(255,255,255,.76);border:1px solid rgba(24,136,176,.12);border-radius:34px;box-shadow:var(--shadow)}.flow-figure img{display:block;width:100%;height:auto;border-radius:24px}
+.contact-card{width:min(100%,980px);margin:auto;text-align:center;background:rgba(255,255,255,.92);border:1px solid rgba(24,136,176,.12);border-radius:38px;padding:48px 46px;box-shadow:var(--shadow)}.contact-icon{display:grid;place-items:center;width:74px;height:74px;margin:0 auto 18px;border-radius:28px;background:#e5f6fd;color:var(--ocean);box-shadow:inset 0 0 0 1px rgba(75,188,222,.10)}.contact-icon .site-icon{width:36px;height:36px}.contact-card h2{font-size:clamp(1.55rem,3.2vw,2.45rem);font-weight:950;color:var(--ocean-deep);line-height:1.18;white-space:nowrap}.contact-card p{margin-top:18px;font-weight:700;color:var(--muted)}.contact-info{display:inline-flex;margin-top:22px;padding:8px 18px;border-radius:999px;background:#e5f6fd;color:var(--ocean-deep);font-weight:950;border:1px solid rgba(75,188,222,.14)}
+.footer{position:relative;margin-top:50px;padding:56px 22px;text-align:center;background:var(--ocean-deep);color:#fff;overflow:hidden}
+.footer:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 12% 10%,rgba(255,213,63,.16),transparent 30%),radial-gradient(circle at 82% 18%,rgba(69,185,222,.16),transparent 30%),repeating-linear-gradient(90deg,rgba(255,255,255,.03) 0 1px,transparent 1px 60px)}
+.footer *{position:relative}.footer-eyebrow{margin:0 0 14px;font-size:.88rem;font-weight:950;letter-spacing:.12em;color:#ffe88a}.footer-link{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:13px 24px;border-radius:999px;background:#fff;color:var(--ocean-deep);text-decoration:none;font-size:1.05rem;font-weight:950;box-shadow:0 16px 28px rgba(13,75,105,.25);transition:transform .18s ease,box-shadow .18s ease}.footer-link:hover{transform:translateY(-3px);box-shadow:0 20px 34px rgba(13,75,105,.30)}.footer-link span{color:var(--coral)}.footer-note{margin-top:16px;opacity:.70}
+.float-shape{position:absolute;pointer-events:none;z-index:0}.star{width:52px;height:52px;background:rgba(255,232,128,.88);clip-path:polygon(50% 0,61% 36%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 36%);animation:float 7s ease-in-out infinite}.circle{width:78px;height:78px;border-radius:50%;background:rgba(69,185,222,.22);animation:float 8s ease-in-out infinite reverse}@keyframes float{50%{transform:translateY(-16px) rotate(8deg)}}
+@media(max-width:960px){.hero-inner{grid-template-columns:1fr}.hero-copy{text-align:center}.lead{margin-left:auto;margin-right:auto}.hero-actions{justify-content:center}.hero-panel{transform:none;max-width:680px;margin:auto}.cards{grid-template-columns:1fr}}
+@media(max-width:640px){.nav a:not(.nav-cta){display:none}.topbar-inner{padding:10px 16px}.hero{min-height:auto;padding:0}.hero h1{font-size:clamp(2.6rem,12vw,4rem)}.hero-title-main{letter-spacing:.01em;-webkit-text-stroke:2px #c41c1c;text-shadow:2px 0 0 #c41c1c,-2px 0 0 #c41c1c,0 2px 0 #c41c1c,0 -2px 0 #c41c1c,0 8px 0 rgba(255,230,60,.80)}.lead{font-size:.98rem;line-height:1.9}.sp-br{display:block}.pc-inline{display:none}.sp-inline{display:inline}.hero-panel{padding:18px;border-radius:28px}.info-item{grid-template-columns:56px 1fr;padding:14px}.info-icon{width:52px;height:52px;border-radius:18px}.info-value{font-size:1.2rem}section{padding:64px 18px}.section-title{font-size:clamp(2rem,10vw,2.9rem);word-break:keep-all;line-break:strict}.map-frame iframe{height:310px}.purpose-copy{padding:28px;border-radius:30px}.flow-figure{padding:6px;border-radius:22px}.flow-figure img{border-radius:16px}.contact-card{padding:34px 20px;border-radius:30px}.contact-card h2{white-space:normal;font-size:clamp(1.55rem,8vw,2.15rem);word-break:keep-all;line-break:strict}.btn{width:100%}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* ブランド名：可愛いグラデーション文字 */
+.brand-name{
+  background:linear-gradient(120deg,#ff8c7a 0%,#ff6b88 38%,#4bbcde 100%);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  font-size:1.08rem;
+  font-weight:900;
+  letter-spacing:.04em;
+  text-shadow:none;
+  position:relative;
+}
+/* ブランドマーク背景をアクセント */
+.brand-mark{border:2px solid rgba(255,92,61,.20)!important}
+
+/* リードテキスト：大きく、センター、インパクト */
+.lead-main{
+  max-width:860px;
+  margin:28px auto 0;
+  font-size:clamp(1.12rem,2.5vw,1.45rem)!important;
+  font-weight:900!important;
+  color:#1d5e7a!important;
+  line-height:1.75!important;
+  letter-spacing:.04em;
+  text-wrap:balance;
+}
+
+.hero-banner-img{display:block;width:100%;height:auto;max-width:100%;}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "きりしまキッズフリマ 第1回",
+  "description": "子どもたちが店主になる体験型フリーマーケット。売る・買う体験を通して、お金の大切さや人と話す楽しさを学びます。",
+  "startDate": "2026-08-03T10:00:00+09:00",
+  "endDate": "2026-08-03T12:00:00+09:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "image": "images/hero-banner.jpg",
+  "location": {
+    "@type": "Place",
+    "name": "桷志田体育館（旧霧島国分体育館）"
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "きりしまキッズフリマ実行委員会"
+  }
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#overview">本文へ移動</a>
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;overflow:hidden">
+  <symbol id="icon-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M9 8.5h6M9 12h6M12 8.5v8"/></symbol>
+  <symbol id="icon-calendar" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="3"/><path d="M8 3v4M16 3v4M4 10h16M8 14h3M13 14h3"/></symbol>
+  <symbol id="icon-map-pin" viewBox="0 0 24 24"><path d="M12 21s7-5.1 7-11a7 7 0 0 0-14 0c0 5.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.4"/></symbol>
+  <symbol id="icon-shop" viewBox="0 0 24 24"><path d="M4 9h16l-1.2-4.5H5.2L4 9Z"/><path d="M5 9v10h14V9M9 19v-5h6v5M7 9v2a2 2 0 0 0 4 0V9M13 9v2a2 2 0 0 0 4 0V9"/></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="12" rx="3"/><path d="m5 8 7 5 7-5"/></symbol>
+</svg>
+
+<div class="site-bg" aria-hidden="true"></div>
+<nav class="topbar" aria-label="サイト内ナビゲーション">
+  <div class="topbar-inner">
+    <a class="brand" href="#top"><span class="brand-mark"><img class="brand-logo-img" src="images/site-logo.png" alt="きりしまキッズマルシェ実行委員会ロゴ" width="180" height="180"></span><span class="brand-name">きりしまキッズフリマ</span></a>
+    <div class="nav">
+      <a href="#overview">開催概要</a>
+      <a href="#purpose">目的</a>
+      <a href="#flow">当日の流れ</a>
+      <a class="nav-cta" href="#contact">出店申込</a>
+    </div>
+  </div>
+</nav>
+<header class="hero" id="top">
+  <h1 class="sr-only">きりしまキッズフリマ 第1回 2026年8月3日開催</h1>
+  <img src="images/hero-banner.jpg" alt="きりしまキッズフリマ 2026.8.3 第1回" class="hero-banner-img" width="1536" height="1024" decoding="async" fetchpriority="high">
+</header>
+
+<main>
+<section id="overview">
+  <div class="section-head"><h2 class="section-title"><span>開催概要</span></h2><p class="section-sub">いつ、どこで、だれが参加できるのかをまとめました。</p></div>
+  <div class="cards">
+    <article class="card"><div class="card-icon"><svg class="site-icon" aria-hidden="true"><use href="#icon-calendar"></use></svg></div><h3>開催日時</h3><p class="big">2026.8.3（月）<br>10:00〜12:00</p></article>
+    <article class="card"><div class="card-icon"><svg class="site-icon" aria-hidden="true"><use href="#icon-map-pin"></use></svg></div><h3>会場</h3><p class="big">桷志田体育館<br><small>旧霧島国分体育館</small></p></article>
+    <article class="card"><div class="card-icon"><svg class="site-icon" aria-hidden="true"><use href="#icon-shop"></use></svg></div><h3>出店対象</h3><p class="big">小学3年生〜6年生</p></article>
+  </div>
+  <div class="map-block">
+    <div class="map-head"><p><svg class="site-icon" aria-hidden="true"><use href="#icon-map-pin"></use></svg>会場アクセスマップ</p><a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=%E6%A1%B7%E5%BF%97%E7%94%B0%E4%BD%93%E8%82%B2%E9%A4%A8" target="_blank" rel="noopener noreferrer">Googleマップで開く</a></div>
+    <div class="map-frame"><iframe src="https://maps.google.com/maps?q=%E6%A1%B7%E5%BF%97%E7%94%B0%E4%BD%93%E8%82%B2%E9%A4%A8&z=16&hl=ja&output=embed" title="桷志田体育館の地図" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+  </div>
+</section>
+<section id="purpose">
+  <div class="section-head"><span class="en">WHY</span><h2 class="section-title"><span>このイベントの目的</span></h2><p class="section-sub">子どもたちの「やってみたい」を、地域のみんなであたたかく見守るイベントです。</p></div>
+  <div class="purpose-wrap">
+    <figure class="purpose-figure"><img src="images/kids_flea_market_purpose.jpg" alt="このイベントの目的。子どもたちが売る、買う体験を通して、生きる力や思いやりの心を育むことを目指します。" width="1774" height="887" loading="lazy" decoding="async"></figure>
+  </div>
+</section>
+<section id="flow">
+  <div class="section-head"><span class="en">FLOW</span><h2 class="section-title"><span>当日の流れ</span></h2></div>
+  <figure class="flow-figure"><img src="images/kids_flea_market_flow.jpg" alt="当日の流れ。1 受付・出店準備、2 開会・ルール説明、3 販売スタート、4 お買い物タイム、5 片付け・終了。" width="1774" height="887" loading="lazy" decoding="async"></figure>
+</section>
+<section id="contact">
+  <div class="contact-card"><span class="contact-icon"><svg class="site-icon" aria-hidden="true"><use href="#icon-mail"></use></svg></span><h2><span class="pc-inline">お問い合わせ・出店申込について</span><span class="sp-inline">お問い合わせ・出店申込<br>について</span></h2><p>出店申込の詳細は、後日あらためてご案内いたします。楽しみにお待ちください！</p><span class="contact-info">主催：きりしまキッズフリマ実行委員会</span></div>
+</section>
+</main>
+<footer class="footer"><p class="footer-eyebrow">情報はこちらをチェック</p><a class="footer-link" href="https://www.instagram.com/kaiiro_event/" target="_blank" rel="noopener noreferrer" aria-label="Instagramのかいいろまるしぇ kaiiro_event を開く">かいいろまるしぇ <span>@kaiiro_event</span></a><p class="footer-note">© 2026 Kirishima Kids Flea Market</p></footer>
+</body>
+</html>
